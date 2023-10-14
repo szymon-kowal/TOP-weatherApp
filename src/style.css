@@ -1,1 +1,69 @@
 /* css */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+:root {
+  --backTandB: aquamarine;
+  --flexGap: 25px;
+  --widthMiddle: 300px;
+}
+
+.header {
+  background-color: var(--backTandB);
+  padding: 30px 0;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 550;
+}
+
+.content {
+  background-color: aqua;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--flexGap);
+}
+
+.form {
+  background-color: aquamarine;
+  width: var(--widthMiddle - 40px);
+  padding: 20px;
+  margin: 20px;
+}
+
+.element {
+  display: flex;
+  flex-direction: column;
+  background-color: aquamarine;
+  justify-content: center;
+  width: var(--widthMiddle);
+  align-self: center;
+}
+
+p {
+  text-align: center;
+}
+
+.footer {
+  background-color: var(--backTandB);
+  text-align: center;
+}
