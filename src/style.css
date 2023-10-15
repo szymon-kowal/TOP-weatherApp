@@ -57,6 +57,7 @@ body {
   width: var(--widthMiddle);
   align-self: center;
   display: none;
+  margin: 10px 0 40px 0;
 }
 
 p {
@@ -66,4 +67,5 @@ p {
 .footer {
   background-color: var(--backTandB);
   text-align: center;
+  padding: 2px;
 }
