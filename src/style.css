@@ -51,12 +51,12 @@ body {
 }
 
 .element {
-  display: flex;
   flex-direction: column;
   background-color: aquamarine;
   justify-content: center;
   width: var(--widthMiddle);
   align-self: center;
+  display: none;
 }
 
 p {
